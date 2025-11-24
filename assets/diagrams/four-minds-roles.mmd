@@ -1,0 +1,34 @@
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#e1f5fe','secondaryColor':'#fff3e0','tertiaryColor':'#f3e5f5'}}}%%
+graph TB
+    subgraph HIGHEST["<b>HIGHEST SELF</b> - The Sage<br/>(~/)"]
+        HS1["✨ Cross-project wisdom"]
+        HS2["🔧 Workflow optimization"]
+        HS3["🛠️ Tool development"]
+    end
+
+    subgraph MENTOR["<b>MENTOR</b> - The Coach<br/>(project-mentor/)"]
+        M1["📋 Strategic planning"]
+        M2["✍️ Prompt engineering"]
+        M3["🏗️ Architecture guidance"]
+    end
+
+    subgraph PEER["<b>PEER</b> - The Lab<br/>(project-mentor/project-peer/)"]
+        P1["🧪 Try new approaches"]
+        P2["📝 Draft & ideate"]
+        P3["🔬 Explore safely"]
+    end
+
+    subgraph DEVELOPER["<b>DEVELOPER</b> - The Hands<br/>(project-mentor/project/)"]
+        D1["⚙️ Implement features"]
+        D2["🐛 Fix bugs"]
+        D3["✅ Execute tasks"]
+    end
+
+    HIGHEST --> MENTOR
+    MENTOR --> PEER
+    MENTOR --> DEVELOPER
+
+    style HIGHEST fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
+    style MENTOR fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    style PEER fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    style DEVELOPER fill:#c8e6c9,stroke:#388e3c,stroke-width:2px

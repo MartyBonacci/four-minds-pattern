@@ -1,0 +1,18 @@
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#e1f5fe','primaryTextColor':'#01579b','primaryBorderColor':'#0277bd','lineColor':'#0288d1','secondaryColor':'#fff3e0','tertiaryColor':'#f3e5f5'}}}%%
+graph TD
+    HOME["🏠 HOME (~/) <br/> <b>HIGHEST SELF</b> <br/> Context: ALL projects <br/> Role: Meta-level orchestrator"]
+
+    MENTOR["📂 my-app-mentor/ <br/> <b>MENTOR</b> <br/> Context: Project + Peer <br/> Role: Strategic advisor"]
+
+    PROJECT["📦 my-app/ <br/> <b>DEVELOPER</b> <br/> Context: Project files <br/> Role: Implementation"]
+
+    PEER["🧪 my-app-peer/ <br/> <b>PEER</b> <br/> Context: Peer only <br/> Role: Experimentation"]
+
+    HOME --> MENTOR
+    MENTOR --> PROJECT
+    MENTOR --> PEER
+
+    style HOME fill:#e1f5fe,stroke:#0277bd,stroke-width:3px,color:#01579b
+    style MENTOR fill:#fff3e0,stroke:#f57c00,stroke-width:3px,color:#e65100
+    style PROJECT fill:#c8e6c9,stroke:#388e3c,stroke-width:3px,color:#1b5e20
+    style PEER fill:#f3e5f5,stroke:#7b1fa2,stroke-width:3px,color:#4a148c

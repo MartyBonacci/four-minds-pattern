@@ -1,0 +1,39 @@
+%%{init: {'theme':'base'}}%%
+graph TD
+    subgraph HS["🏠 HIGHEST SELF - Sees EVERYTHING"]
+        HS1["All Projects in ~/code-projects/"]
+        HS2["All .claude configs"]
+        HS3["All Plugins"]
+        HS4["Full History"]
+    end
+
+    subgraph MENTOR["🎓 MENTOR - Sees Project + Peer"]
+        M1["project/ subdirectory"]
+        M2["project-peer/ subdirectory"]
+    end
+
+    subgraph DEV["⚙️ DEVELOPER - Project Only"]
+        D1["project/ files"]
+    end
+
+    subgraph PEER["🧪 PEER - Peer Only"]
+        P1["project-peer/ experiments"]
+    end
+
+    HS --> MENTOR
+    MENTOR --> DEV
+    MENTOR --> PEER
+
+    style HS fill:#e1f5fe,stroke:#0277bd,stroke-width:3px
+    style MENTOR fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    style DEV fill:#c8e6c9,stroke:#388e3c,stroke-width:3px
+    style PEER fill:#f3e5f5,stroke:#7b1fa2,stroke-width:3px
+
+    style HS1 fill:#b3e5fc,stroke:#0277bd
+    style HS2 fill:#b3e5fc,stroke:#0277bd
+    style HS3 fill:#b3e5fc,stroke:#0277bd
+    style HS4 fill:#b3e5fc,stroke:#0277bd
+    style M1 fill:#ffe0b2,stroke:#f57c00
+    style M2 fill:#ffe0b2,stroke:#f57c00
+    style D1 fill:#a5d6a7,stroke:#388e3c
+    style P1 fill:#e1bee7,stroke:#7b1fa2

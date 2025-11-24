@@ -1,0 +1,46 @@
+%%{init: {'theme':'base'}}%%
+graph LR
+    subgraph TRAD["❌ Traditional Single AI"]
+        T1["Single Instance<br/>Does Everything"]
+        T1 --> T2["😵 Context switching"]
+        T1 --> T3["🗑️ Polluted git history"]
+        T1 --> T4["🔀 Strategic/tactical confusion"]
+        T1 --> T5["👁️ Single perspective"]
+    end
+
+    subgraph FOUR["✅ Four Minds Pattern"]
+        F1["🏠 Highest Self<br/>(~/)"]
+        F2["🎓 Mentor<br/>(project-mentor/)"]
+        F3["🧪 Peer<br/>(project-mentor/project-peer/)"]
+        F4["⚙️ Developer<br/>(project-mentor/project/)"]
+
+        F1 --> F2
+        F2 --> F3
+        F2 --> F4
+
+        F5["✨ Clear cognitive separation"]
+        F6["✅ Clean git history"]
+        F7["🎯 Strategic clarity"]
+        F8["👁️👁️👁️👁️ Multiple perspectives"]
+
+        F4 --> F5
+        F3 --> F6
+        F2 --> F7
+        F1 --> F8
+    end
+
+    style TRAD fill:#ffebee,stroke:#c62828,stroke-width:2px
+    style FOUR fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style T1 fill:#ffcdd2,stroke:#c62828
+    style T2 fill:#ffcdd2,stroke:#c62828
+    style T3 fill:#ffcdd2,stroke:#c62828
+    style T4 fill:#ffcdd2,stroke:#c62828
+    style T5 fill:#ffcdd2,stroke:#c62828
+    style F1 fill:#e1f5fe,stroke:#0277bd
+    style F2 fill:#fff3e0,stroke:#f57c00
+    style F3 fill:#f3e5f5,stroke:#7b1fa2
+    style F4 fill:#c8e6c9,stroke:#388e3c
+    style F5 fill:#c8e6c9,stroke:#2e7d32
+    style F6 fill:#c8e6c9,stroke:#2e7d32
+    style F7 fill:#c8e6c9,stroke:#2e7d32
+    style F8 fill:#c8e6c9,stroke:#2e7d32
