@@ -1,23 +1,27 @@
 %%{init: {'theme':'base'}}%%
 graph TD
-    subgraph HS["🏠 HIGHEST SELF - Sees EVERYTHING"]
+    subgraph HS["HIGHEST SELF - Sees All"]
+        direction TB
         HS1["All Projects in ~/code-projects/"]
         HS2["All .claude configs"]
         HS3["All Plugins"]
         HS4["Full History"]
     end
 
-    subgraph MENTOR["🎓 MENTOR - Sees Project + Peer"]
+    subgraph MENTOR["MENTOR - Project + Peer"]
+        direction TB
         M1["project/ subdirectory"]
         M2["project-peer/ subdirectory"]
     end
 
-    subgraph DEV["⚙️ DEVELOPER - Project Only"]
+    subgraph DEV["DEVELOPER - Project Only"]
+        direction TB
         D1["project/ files"]
     end
 
-    subgraph PEER["🧪 PEER - Peer Only"]
-        P1["project-peer/ experiments"]
+    subgraph PEER["PEER - Peer Only"]
+        direction TB
+        P1["project-peer/ ideation"]
     end
 
     HS --> MENTOR

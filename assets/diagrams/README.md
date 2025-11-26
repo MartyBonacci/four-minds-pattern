@@ -19,15 +19,11 @@ Mermaid diagrams render automatically on GitHub and can be converted to PNG/SVG 
    - Shows the four Minds and their responsibilities
    - Use for: Overview slides, social media, blog header
 
-3. **workflow-sequence.mmd**
-   - Shows typical interaction sequence
-   - Use for: Tutorial videos, workflow documentation
-
-4. **traditional-vs-fourminds.mmd**
+3. **traditional-vs-fourminds.mmd**
    - Compares single AI vs Four Minds approach
    - Use for: Marketing, problem/solution framing
 
-5. **context-visibility.mmd**
+4. **context-visibility.mmd**
    - Shows what each Mind can see
    - Use for: Technical explanation, architecture docs
 
@@ -89,7 +85,7 @@ Use `traditional-vs-fourminds.mmd` to show the problem/solution.
 ### Social Media
 
 - **Twitter/X**: Square crop of `four-minds-roles.mmd`
-- **LinkedIn**: Wide format of `workflow-sequence.mmd`
+- **LinkedIn**: Wide format of `four-minds-roles.mmd`
 - **YouTube Thumbnail**: `directory-hierarchy.mmd` with text overlay
 
 ### Presentations
