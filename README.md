@@ -391,6 +391,7 @@ For comprehensive examples beyond code, see [Applications Beyond Code](docs/appl
 - [Why This Works](docs/why-this-works.md) - Cognitive science explanation
 - [Workflow Guide](docs/workflow-guide.md) - Detailed workflows for each Mind
 - [Mentor→Developer Workflow](docs/mentor-developer-workflow.md) - The prompt crafting pattern
+- [Lessons from Practice](docs/lessons-from-practice.md) - What extended use of the Mentor→Developer pattern revealed about its lifecycle
 - [Applications Beyond Code](docs/applications-beyond-code.md) - Using Four Minds for documentation, content, strategy, and research
 - [Troubleshooting](docs/troubleshooting.md) - Common issues and solutions
 - [Visual Diagrams](docs/four-minds-diagram.md) - ASCII diagrams and visual representations
