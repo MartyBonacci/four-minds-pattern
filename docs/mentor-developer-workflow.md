@@ -2,6 +2,13 @@
 
 The most powerful pattern discovered in the Four Minds approach: using **Mentor to craft strategic prompts for Developer**.
 
+> **This workflow evolved.** In production use, the copy-paste relay described here was
+> replaced by the Mentor dispatching a headless builder directly, with the human's role
+> shifting to sighted verification and taste. This document remains the right starting
+> point — the relay stage is how you calibrate before removing yourself from the loop.
+> For the evolved form, see the main README's "How the Pattern Evolved" section,
+> [templates/](../templates/), and [failure-modes.md](failure-modes.md).
+
 ---
 
 ## Table of Contents
