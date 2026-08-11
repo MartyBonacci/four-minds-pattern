@@ -254,6 +254,7 @@ See [Applications Beyond Code](docs/applications-beyond-code.md).
 - [Why This Works](docs/why-this-works.md) — cognitive science explanation (v1)
 - [Workflow Guide](docs/workflow-guide.md) — detailed workflows for each Mind (v1)
 - [Mentor→Developer Workflow](docs/mentor-developer-workflow.md) — the prompt crafting pattern (v1, the precursor to dispatch)
+- [Lessons from Practice](docs/lessons-from-practice.md) — what extended use of the Mentor→Developer pattern revealed about its lifecycle
 - [Applications Beyond Code](docs/applications-beyond-code.md)
 - [Troubleshooting](docs/troubleshooting.md)
 - [Visual Diagrams](docs/four-minds-diagram.md) · [Mermaid sources](assets/diagrams/)
